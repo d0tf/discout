@@ -8,7 +8,7 @@ bun install
 
 To run:
 
-Before running it, please correctly fill in the whitelisted guilds in the file "wl_guilds.txt".
+Before running it, please fill in `TOKEN` correctly in the file "index.ts" on line 6 and whitelisted guilds in the file "wl_guilds.txt"
 
 ```bash
 bun run index.ts
