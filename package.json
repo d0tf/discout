@@ -1,0 +1,19 @@
+{
+  "name": "discout",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "start": "bun run .",
+    "dev": "bun run --watch ."
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.1"
+  }
+}
